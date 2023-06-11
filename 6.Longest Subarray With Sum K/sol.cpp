@@ -1,4 +1,4 @@
-#include <bits/stdc++.h> 
+#include <bits/stdc++.h>
 int getLongestSubarray(vector<int>& nums, int k){
     // Write your code here
     int n=nums.size();
