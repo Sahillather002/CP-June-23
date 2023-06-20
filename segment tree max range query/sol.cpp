@@ -20,6 +20,7 @@ void update(int id,int l,int r,int pos,int val){
         //cout<<st[pos];
         return;
     }
+
     int mid=(l+r)/2;
     if(pos<=mid)update(2*id+1,l,mid,pos,val);
     else update(2*id+2,mid+1,r,pos,val);
